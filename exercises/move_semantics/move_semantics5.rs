@@ -3,13 +3,14 @@
 // adding, changing or removing any of them.
 // Execute `rustlings hint move_semantics5` for hints :)
 
-// I AM NOT DONE
 
 fn main() {
     let mut x = 100;
     let y = &mut x;
-    let z = &mut x;
     *y += 100;
+    println!("x have value update by ref y {}", x);
+    let z = &mut x;
     *z += 1000;
+    println!("x have value updated by ref z {}", x);
     assert_eq!(x, 1200);
 }
