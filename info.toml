@@ -376,6 +376,12 @@ path = "exercises/enums/enums3.rs"
 mode = "test"
 hint = "No hints this time ;)"
 
+[[exercises]]
+name = "enums4"
+path = "exercises/enums/enums4.rs"
+mode = "test"
+hint = "No hints this time ;)"
+
 # MODULES
 
 [[exercises]]
